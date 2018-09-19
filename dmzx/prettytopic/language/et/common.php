@@ -1,5 +1,6 @@
 <?php
 /*
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @package Pretty topic
 * @author dmzx (www.dmzx-web.net)
@@ -19,11 +20,11 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-    'VIEW_TOPIC_ANNOUNCEMENT'   => 'Announcement',
-    'VIEW_TOPIC_GLOBAL'         => 'Global Announcement',
-    'VIEW_TOPIC_LOCKED'         => 'Locked',
-    'VIEW_TOPIC_LOGS'           => 'View logs',
-    'VIEW_TOPIC_MOVED'          => 'Moved',
-    'VIEW_TOPIC_POLL'           => 'Poll',
-    'VIEW_TOPIC_STICKY'         => 'Sticky',
+    'VIEW_TOPIC_ANNOUNCEMENT'   => 'Teadaanne',
+    'VIEW_TOPIC_GLOBAL'         => 'Üldteadaanne',
+    'VIEW_TOPIC_LOCKED'         => 'Lukus',
+    'VIEW_TOPIC_LOGS'           => 'Vaata logi',
+    'VIEW_TOPIC_MOVED'          => 'Liigutatud',
+    'VIEW_TOPIC_POLL'           => 'Hääletus',
+    'VIEW_TOPIC_STICKY'         => 'Kleebis',
 ));
